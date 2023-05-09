@@ -1,4 +1,3 @@
 node_modules
-index.js
 *.tgz
 .verdaccio-db.json
