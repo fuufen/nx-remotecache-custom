@@ -2,8 +2,8 @@
   "name": "nx-remotecache-custom",
   "version": "3.1.0",
   "description": "Build custom caching for @nrwl/nx in a few lines of code",
-  "main": "index.js",
-  "typings": "index.d.ts",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc && cp package.json dist/package.json && cp README.md dist/README.md && cp CHANGELOG.md dist/CHANGELOG.md",
     "release": "npm run build && cd dist && npm publish && cd ..",
